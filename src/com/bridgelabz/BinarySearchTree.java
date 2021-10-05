@@ -1,7 +1,7 @@
 package com.bridgelabz;
 
 public class BinarySearchTree {
-   // New Node Creation Method
+    // New Node Creation Method
     public Node createNewNode(int data) {
         Node newNode = new Node(data);
         newNode.data = data;
@@ -33,5 +33,3 @@ public class BinarySearchTree {
         print(root.right);
     }
 }
-
-
